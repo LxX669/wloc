@@ -6,9 +6,9 @@ export function getPageHtml() {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>WLOC 虚拟定位</title>
+<title>LxX669 WLOC 定位</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="WLOC">
+<meta name="apple-mobile-web-app-title" content="LxX669 WLOC">
 <!-- 内联图标: 没有它浏览器每次加载都会去要 /favicon.ico 并拿到 404 -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E">
 <!-- integrity 为 Leaflet 官方在 leafletjs.com/download.html 公布的 SRI 值,
@@ -87,6 +87,10 @@ body { font-family:-apple-system,system-ui,"SF Pro","Helvetica Neue",sans-serif;
 </div>
 </div>
 <div class="panel">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:12px">
+    <h1 style="font-size:18px;color:#1c1c1e">LxX669 WLOC</h1>
+    <a href="https://github.com/LxX669/wloc" target="_blank" rel="noopener noreferrer" style="font-size:12px;color:var(--blue);text-decoration:none">项目主页</a>
+  </div>
   <div class="error-banner" id="errorBanner">
     <b>模块未生效</b>
     请检查以下配置：<br>
@@ -144,6 +148,7 @@ body { font-family:-apple-system,system-ui,"SF Pro","Helvetica Neue",sans-serif;
     </div>
   </div>
   <div class="status" id="status">选好位置后点击「储存到设备」写入代理工具</div>
+  <div class="status">LxX669 维护 · 基于 <a href="https://github.com/Yu9191/wloc" target="_blank" rel="noopener noreferrer">Yu9191/wloc</a> · AGPL-3.0</div>
 </div>
 <div class="toast" id="toast"></div>
 <div class="modal-overlay" id="favModal">
